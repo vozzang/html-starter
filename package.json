@@ -1,0 +1,29 @@
+{
+  "name": "html-starter",
+  "version": "1.0.0",
+  "description": "gulp, ejs, scss, browsersync",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vozzang/html-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vozzang/html-starter/issues"
+  },
+  "homepage": "https://github.com/vozzang/html-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

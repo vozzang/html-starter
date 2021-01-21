@@ -1,0 +1,14 @@
+<%- include('../@layouts/head') %>
+<%- include('../@components/breadcrumb.ejs') %>
+
+main
+
+<%- include('../@components/button.ejs', {
+  components: {
+    button: {
+      class: 'btn-lg btn-primary',
+      text: 'click!'
+    }
+  }
+}) %>
+<%- include('../@layouts/foot') %>
